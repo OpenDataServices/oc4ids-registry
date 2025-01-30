@@ -1,0 +1,41 @@
+title: OC4IDS register
+description: Register for https://standard.open-contracting.org/infrastructure/latest/en/
+githost:
+  type: github
+  url: OpenDataServices/oc4ids-registry
+  primary_branch: live
+types:
+- id: dataset
+  directory: dataset
+  fields:
+  - id: url
+    key: url
+    title: URL
+    type: url
+  - id: license_title
+    key: license_title
+    title: License Title (if custom)
+    description: If the license title is not a common one defined in license_url, then set it here.
+  list_fields:
+  - url
+  - license_title
+  default_format: yaml
+- id: license
+  directory: license
+  fields:
+  - id: title
+    key: title
+    title: Human readable title
+  - id: urls
+    key: urls
+    title: URLs
+    type: list-dictionaries
+    fields:
+    - id: url
+      key: url
+      title: URL
+      type: url
+  list_fields:
+  - title
+  - urls
+  default_format: yaml
