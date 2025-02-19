@@ -26,6 +26,9 @@ types:
   - id: title
     key: title
     title: Human readable title
+  - id: title_short
+    key: title_short
+    title: Human readable title (Short)
   - id: urls
     key: urls
     title: URLs
@@ -37,5 +40,6 @@ types:
       type: url
   list_fields:
   - title
+  - title_short
   - urls
   default_format: yaml
