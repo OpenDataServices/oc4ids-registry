@@ -20,6 +20,6 @@ Information about each dataset is stored in a YAML file, where the name of the f
 
 To update an existing dataset, update the YAML file for that dataset. To add a new dataset, create a new YAML file. The [datatig.yaml](./datatig.yaml) file shows the schema.
 
-You can also use web forms [for existing datasets](https://opendataservices.github.io/oc4ids-registry/datatig/type/dataset/) or [new datasets](https://opendataservices.github.io/oc4ids-registry/datatig/type/dataset/newweb/) instead of editing the YAML.
+You can also use web forms [for existing datasets](https://opendataservices.github.io/oc4ids-registry/datatig/type/dataset/) or [new datasets](https://opendataservices.github.io/oc4ids-registry/datatig/type/dataset/newweb/) instead of editing the YAML. When editing expisting records, you may have to click on "properiets" and select to add all the fields you want to edit.
 
 Next, raise a pull request with your changes. The pull request will run a job that checks that the YAML file is in the correct format. Once the pull request is merged to the `live` branch, another job will publish it, making it available in the UI and via the API.
