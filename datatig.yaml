@@ -16,9 +16,14 @@ types:
     key: license_title
     title: License Title (if custom)
     description: If the license title is not a common one defined in license_url, then set it here.
+  - id: country
+    key: country
+    title: Country
+    description: Country of publisher, ISO 2 letter code.
   list_fields:
   - url
   - license_title
+  - country
   default_format: yaml
 - id: license
   directory: license
