@@ -20,6 +20,15 @@ types:
     key: country
     title: Country
     description: Country of publisher, ISO 2 letter code.
+  - id: portal_title
+    key: portal_title
+    title: Portal Title
+    description: Title of portal.
+  - id: portal_url
+    key: portal_url
+    title: Portal URL
+    type: url
+    description: URL of portal.
   list_fields:
   - url
   - license_title
