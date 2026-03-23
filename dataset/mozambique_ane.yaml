@@ -1,3 +1,5 @@
 country: 'MZ' 
 license_title: '' 
-url: 'https://us-central1-mozportal-31b5c.cloudfunctions.net/getOC4IDSData'
+portal_title: 'Road Fund Infrastructure Portal (APE Portal)' 
+portal_url: 'https://dadosinfra.co.mz/' 
+url: 'https://us-central1-mozportal-31b5c.cloudfunctions.net/getOC4IDSData' 
