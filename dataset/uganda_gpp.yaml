@@ -1,5 +1,5 @@
 license_title: ''
-url: 'https://gpp.ppda.go.ug/adminapi/public/api/open-data/v1/infrastructure/projects/download?format=json'
+url: 'https://cdn.ppda.go.ug/api/open-data/v1/infrastructure/projects/oc4ids-package?fy=all'
 country: 'ug'
 portal_title: 'Goverment of Uganda Procurement Portal (GPP)'
-portal_url: https://gpp.ppda.go.ug/public/open-data/oc4ids/project-summary
+portal_url: 'https://gpp.ppda.go.ug/'
